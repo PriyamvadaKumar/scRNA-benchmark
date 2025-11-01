@@ -100,13 +100,8 @@ Right – Runtime (log-log): MDE scales near-linearly; t-SNE is quadratic.
 ## Reproducibility
 
 ```bash
-# 1. Install dependencies
-pip install scanpy umap-learn pymde seaborn scikit-learn matplotlib pandas numpy
-
-# 2. Run the benchmark
+conda env create -f environment.yml
+conda activate scRNA-benchmark
 python main.py
 
-# 3. Inspect results
-open results_pbmc3k/embeddings.png
-open scaling_plot.png
 
