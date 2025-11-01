@@ -1,0 +1,14 @@
+name: mde-benchmark
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.9
+  - scanpy
+  - umap-learn
+  - pymde
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pandas
+  - numpy

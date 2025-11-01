@@ -1,0 +1,22 @@
+{
+  "dataset": "pbmc3k",
+  "n_cells": 228,
+  "n_types": 8,
+  "methods": {
+    "umap": {
+      "runtime_s": 2.77,
+      "ari": 0.518,
+      "nmi": 0.592
+    },
+    "mde": {
+      "runtime_s": 0.97,
+      "ari": 0.518,
+      "nmi": 0.592
+    },
+    "tsne": {
+      "runtime_s": 0.46,
+      "ari": 0.518,
+      "nmi": 0.592
+    }
+  }
+}

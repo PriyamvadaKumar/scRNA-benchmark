@@ -1,0 +1,22 @@
+{
+  "dataset": "pbmc68k",
+  "n_cells": 65872,
+  "n_types": 11,
+  "methods": {
+    "umap": {
+      "runtime_s": 50.4,
+      "ari": 0.143,
+      "nmi": 0.253
+    },
+    "mde": {
+      "runtime_s": 28.86,
+      "ari": 0.143,
+      "nmi": 0.253
+    },
+    "tsne": {
+      "runtime_s": 194.21,
+      "ari": 0.143,
+      "nmi": 0.253
+    }
+  }
+}
