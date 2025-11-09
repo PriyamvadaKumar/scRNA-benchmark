@@ -93,7 +93,7 @@ Right – Runtime (log-log): MDE scales near-linearly; t-SNE is quadratic.
 - **All methods preserve clustering fidelity** when PCA input is standardized.  
 - **t-SNE wins on small data** (< 1 k cells).  
 - **Preprocessing matters:** automatic HVG and normalization detection ensure stability and reproducibility.  
-- **MDE’s graph-based optimization** excels in dense, high-throughput scRNA-seq datasets — making it ideal for million-cell studies.
+- **MDE’s graph-based optimization** excels in dense, high-throughput scRNA-seq datasets, making it ideal for million-cell studies.
 
 ---
 
